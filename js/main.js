@@ -131,9 +131,9 @@ function isWinner() {
 
       
       const cells = document.querySelectorAll('.board__cell');
-      let letterId1 = document.querySelector(`[data-id='${cell1}'`);
-      let letterId2 = document.querySelector(`[data-id='${cell2}'`);
-      let letterId3 = document.querySelector(`[data-id='${cell3}'`);
+      let letterId1 = document.querySelector(`[data-id='${cell1}']`);
+      let letterId2 = document.querySelector(`[data-id='${cell2}']`);
+      let letterId3 = document.querySelector(`[data-id='${cell3}']`);
       
       cells.forEach( cell => {
         let cellId = cell.firstElementChild.dataset.id;	
